@@ -1,7 +1,9 @@
 public class Student {
     public String firstName;
+    public String lastName;
 
-    public Student(String fname) {
-        firstname = fname;
+    public Student(String fname, String lname) {
+        firstName = fname;
+        lastName = lname;
     }
 }
